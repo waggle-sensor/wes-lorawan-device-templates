@@ -1,8 +1,12 @@
-# Device Repository for LoRaWAN
+# Waggle Device Repository for LoRaWAN
 
-The Device Repository contains information about LoRaWAN end devices. The Device Repository acts as key data source for device catalogs and onboarding devices on LoRaWAN networks.
+The Device Repository contains information about LoRaWAN end devices. The Device Repository acts as a key public data source for device catalogs and onboarding devices to [wes-chirpstack-server](https://github.com/waggle-sensor/wes-chirpstack-server).
 
-This repository is a collaborative effort, driven by The Things Network community. We welcome device makers to contribute information about their end devices to help users find and onboard their devices.
+This forked repository is a collaborative effort, started by The Things Network community in their repo [lorawan-devices](https://github.com/TheThingsNetwork/lorawan-devices). We welcome anyone to contribute information about their end devices to help Waggle users find and onboard their devices. 
+
+If you prefer not to share your device configuration through this repository, you can still add your device via a Waggle node's [wes-chirpstack-server](https://github.com/waggle-sensor/wes-chirpstack-server). By adding your device configuration only to the [wes-chirpstack-server](https://github.com/waggle-sensor/wes-chirpstack-server) on the Waggle node, your device configuration will remain private to that specific server.
+
+>NOTE: The specific version chosen of [lorawan-devices](https://github.com/TheThingsNetwork/lorawan-devices) was the last version that had `Apache License 2.0`. Newer version cannot be replicated. You are, however, permitted to reuse or extract information about an individual end device.
 
 ## Example
 
