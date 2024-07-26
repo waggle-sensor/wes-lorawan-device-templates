@@ -6,7 +6,7 @@ This forked repository is a collaborative effort, started by The Things Network 
 
 If you prefer not to share your device configuration through this repository, you can still add your device via a Waggle node's [wes-chirpstack-server](https://github.com/waggle-sensor/wes-chirpstack-server). By adding your device configuration only to the [wes-chirpstack-server](https://github.com/waggle-sensor/wes-chirpstack-server) on the Waggle node, your device configuration will remain private to that specific server.
 
->NOTE: The specific version chosen of [lorawan-devices](https://github.com/TheThingsNetwork/lorawan-devices) was the last version that had `Apache License 2.0`. Newer version cannot be replicated. You are, however, permitted to reuse or extract information about an individual end device.
+>NOTE: The specific version chosen of [lorawan-devices](https://github.com/TheThingsNetwork/lorawan-devices) was the last version that had `Apache License 2.0`. Newer versions cannot be replicated. You are, however, permitted to reuse or extract information about an individual end device from [lorawan-devices](https://github.com/TheThingsNetwork/lorawan-devices).
 
 ## Example
 
