@@ -14,3 +14,7 @@ macVersion: 1.0.2
 regionalParametersVersion: RP001-1.0.2
 # Whether the end device supports join (OTAA) or not (ABP)
 supportsJoin: true
+# Maximum EIRP
+maxEIRP: 16 #NOTE: don't know what is the actual value - FL
+# Whether the end device supports 32-bit frame counters
+supports32bitFCnt: true #NOTE: don't know what is the actual value - FL
