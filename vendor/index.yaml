@@ -1928,3 +1928,11 @@ vendors:
 
   - id: waggle
     name: waggle
+
+  - id: ict-international
+    name: ICT International
+    description: ICT International is a science-led manufacturer delivering the worlds best monitoring solutions focused on plant water use, plant water potential and soil moisture management. Proudly headquartered in Armidale in rural NSW Australia, we export our unique, technologically advanced products to over 55 countries.
+    website: https://ictinternational.com/
+    social:
+      linkedin: https://www.linkedin.com/company/ict-international/
+      github: ICT-International
