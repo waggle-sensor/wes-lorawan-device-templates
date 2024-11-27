@@ -12,7 +12,7 @@ firmwareVersions:
       - '1.0'
     profiles:
       US902-928:
-        id: sfm1x-profile-us915
+        id: sfm1x-r1-1-profile-us915
         lorawanCertified: false
         codec: sfm1x-r1-1-codec
   - version: '3.1'
@@ -21,7 +21,7 @@ firmwareVersions:
       - '1.0'
     profiles:
       US902-928:
-        id: sfm1x-profile-us915
+        id: sfm1x-r3-1-profile-us915
         lorawanCertified: false
         codec: sfm1x-r3-1-codec
 
