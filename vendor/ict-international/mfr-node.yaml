@@ -11,9 +11,9 @@ firmwareVersions:
       - '1.0'
     profiles:
       US902-928:
-        id: mfr_node-r1-profile-us915 
+        id: mfr-node-r1-profile-us915 
         lorawanCertified: false
-        codec: mfr_node-r1-codec 
+        codec: mfr-node-r1-codec 
 
 additionalRadios:
   - cellular
@@ -35,4 +35,4 @@ resellerURLs:
     url: https://ictinternational.com/
 
 photos:
-  main: mfr_node.png
+  main: mfr-node.png
