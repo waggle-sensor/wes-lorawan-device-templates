@@ -1,0 +1,38 @@
+name: MFR_node
+description: The MFR-NODE has been designed to provide flexible communication, sensor and power options. The MFR-NODE supports SDI-12, four 32-bit dry-contact counting digital inputs and four single-ended (two differential) 0 - 3 V analogue inputs, with selectable 12 V, 5 V or 2.5 V excitation and a 0-100khz frequency input.
+hardwareVersions:
+  - version: '1.0'
+    numeric: 1
+
+firmwareVersions:
+  - version: '1.0'
+    numeric: 1
+    hardwareVersions:
+      - '1.0'
+    profiles:
+      US902-928:
+        id: mfr-node-r1-profile-us915
+        lorawanCertified: false
+        codec: mfr-node-r1-codec
+
+additionalRadios:
+  - cellular
+
+keyProgramming:
+  - serial #the user has a serial interface to set the keys
+
+firmwareProgramming:
+  - serial #the user has a serial interface to update the firmware
+
+productURL: https://ictinternational.com/product/internet-of-things-nodes/
+dataSheetURL: https://ictinternational.com/wp-content/uploads/2023/06/MFR-NODE-L-Manual.pdf
+
+# Commercial information
+resellerURLs:
+  - name: 'ICT International'
+    region:
+      - United States
+    url: https://ictinternational.com/
+
+photos:
+  main: mfr-node.png
