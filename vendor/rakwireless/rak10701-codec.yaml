@@ -1,0 +1,11 @@
+# Uplink decoder decodes binary data uplink into a JSON object (optional)
+uplinkDecoder:
+  fileName: decoder-rak10701.js
+
+# Downlink encoder encodes JSON object into a binary data downlink (optional)
+downlinkEncoder:
+  fileName: decoder-rak10701.js
+
+# Downlink decoder decodes the encoded downlink message (optional, must be symmetric with downlinkEncoder)
+downlinkDecoder:
+  fileName: decoder-rak10701.js
