@@ -14,7 +14,7 @@ firmwareVersions:
       US902-928:
         id: rak10701-915-profile
         lorawanCertified: false
-        codec: decoder-rak10701
+        codec: rak10701-codec
 
 keyProgramming:
   - firmware #the user dowloads firmware to set the device
