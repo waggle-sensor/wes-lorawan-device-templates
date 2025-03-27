@@ -1,0 +1,33 @@
+name: RAK10701
+description: The RAK10701 Field Tester for LoRaWAN is a ready-to-use WisNode for evaluating deployed LoRaWAN network, which comes in a hard case and two different antenna types. It has a GNSS and a touchscreen LCD for the user interface, which displays the number of gateways the device can reach and other parameters like approximate distance, RSSI, and SNR. It is powered by a rechargeable battery and can be charged via USB Type-C interface.The RAK10701 Field Tester comes in two variants. The RAK10701-P has two antennas, one 2.3 dBi and one 2.8 dBi and a hard case. The RAK10701-L comes only with one 2.3 dBi antenna and no hard case.
+
+hardwareVersions:
+  - version: '1.0'
+    numeric: 1
+
+firmwareVersions:
+  - version: '1.0'
+    numeric: 1
+    hardwareVersions:
+      - '1.0'
+    profiles:
+      US902-928:
+        id: rak10701-915-profile
+        lorawanCertified: false
+        codec: decoder-rak10701
+
+keyProgramming:
+  - firmware #the user dowloads firmware to set the device
+
+productURL: https://store.rakwireless.com/products/field-tester-for-lorawan-rak10701
+dataSheetURL: https://docs.rakwireless.com/product-categories/wisnode/rak10701-p/datasheet/
+
+# Commercial information
+resellerURLs:
+  - name: 'RAK Wireless'
+    region:
+      - United States
+    url: https://www.rakwireless.com/en-us
+
+photos:
+  main: rak10701.png
