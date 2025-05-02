@@ -9,8 +9,8 @@ firmwareVersions:
         id: exosonde-mkrwan1310-profile-us915
         lorawanCertified: false
 
-keyProvisioning:
-  - serial
+keyProgramming:
+  - serial #the user has a serial interface to set the keys
 
 firmwareProgramming:
   - serial #the user has a serial interface to update the firmware
