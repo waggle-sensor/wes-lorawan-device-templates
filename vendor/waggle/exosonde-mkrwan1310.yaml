@@ -1,0 +1,23 @@
+name: EXO sonde MKR WAN 1310
+description: Exo sonde is a water sensor by Xylem, which is used to measure water quality parameters. The device is extended with a Arduino MKR WAN 1310 board to enable lorawan connectivity.
+
+firmwareVersions:
+  - version: '0.1.0'
+    numeric: 1
+    profiles:
+      US902-928:
+        id: exosonde-mkrwan1310-profile-us915
+        lorawanCertified: false
+
+keyProgramming:
+  - serial #the user has a serial interface to set the keys
+
+firmwareProgramming:
+  - serial #the user has a serial interface to update the firmware
+
+# Product and data sheet URLs (optional)
+dataSheetURL: https://www.xylem.com/siteassets/brand/ysi/resources/manual/exo-user-manual-web.pdf
+
+# Photos
+photos:
+  main: exosonde-mkrwan1310.jpeg
