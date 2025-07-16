@@ -1,7 +1,7 @@
 # Whether the end device supports class B
-supportsClassB: true
+supportsClassB: false #NOTE: rak7434 does support class B, but we haven't tested it yet - FL
 # Whether the end device supports class C
-supportsClassC: true
+supportsClassC: false #NOTE: rak7434 does support class C, but we haven't tested it yet - FL
 # LoRaWAN MAC version: 1.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4 or 1.1
 macVersion: 1.0.3
 # LoRaWAN Regional Parameters version. Values depend on the LoRaWAN version:
