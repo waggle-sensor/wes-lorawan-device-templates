@@ -5,7 +5,7 @@ firmwareVersions:
     numeric: 1
     profiles:
       US902-928:
-        id: csu-soil-sensor-rak7434-profile-us915
+        id: csu-soil-sensor-rak7434-profil-us915
         lorawanCertified: true
         codec: csu-soil-sensor-rak7434-codec
 
