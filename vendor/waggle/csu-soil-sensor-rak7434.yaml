@@ -1,0 +1,23 @@
+name: CSU Soil Sensor RAK7434
+description: CSU Soil Sensor is a soil moisture and temperature sensor. The device is extended with a RAKwireless RAK7434 to enable LoRaWAN connectivity.
+firmwareVersions:
+  - version: '0.1.0'
+    numeric: 1
+    profiles:
+      US902-928:
+        id: csu-soil-sensor-rak7434-profil-us915
+        lorawanCertified: true
+        codec: csu-soil-sensor-rak7434-codec
+
+keyProgramming:
+  - serial #the user has a serial interface to set the keys
+
+firmwareProgramming:
+  - serial #the user has a serial interface to update the firmware
+
+# Product and data sheet URLs (optional)
+dataSheetURL: https://docs.rakwireless.com/product-categories/wisnode/rak7432-rak7434/rak7434-datasheet
+
+# Photos
+photos:
+  main: csu-soil-sensor-rak7434.jpeg

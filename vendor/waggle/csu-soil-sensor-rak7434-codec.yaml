@@ -1,0 +1,11 @@
+# Uplink decoder decodes binary data uplink into a JSON object (optional)
+uplinkDecoder:
+  fileName: csu-soil-sensor-rak7434.js
+
+# Downlink encoder encodes JSON object into a binary data downlink (optional)
+downlinkEncoder:
+  fileName: csu-soil-sensor-rak7434.js
+
+# Downlink decoder decodes the encoded downlink message (optional, must be symmetric with downlinkEncoder)
+downlinkDecoder:
+  fileName: csu-soil-sensor-rak7434.js
