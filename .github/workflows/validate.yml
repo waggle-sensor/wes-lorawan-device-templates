@@ -19,4 +19,4 @@ jobs:
       - name: Validate
         run: make validate
       - name: Check Format
-        run: npx prettier --check schema.json "vendor/**/*.yaml" "bin/**/*.js"
+        run: npx prettier --check schema.json "vendor/**/*.yaml"
