@@ -2,3 +2,4 @@ endDevices:
   # Unique identifier of the end device (lowercase, alphanumeric with dashes, max 36 characters)
   - sfm1x # look in sfm1x.yaml for the end device definition
   - mfr-node # look in mfr-node.yaml for the end device definition
+  - s-node # look in s-node.yaml for the end device definition

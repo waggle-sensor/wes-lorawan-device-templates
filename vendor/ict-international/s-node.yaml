@@ -1,0 +1,38 @@
+name: S_node
+description: The S-NODE has been designed to support the broad suite of SDI-12 based environmental sensors and includes four on-board sensor inputs and the capacity to support additional sensors which are bussed externally. With a power system based upon either a 6.5 Ah or 13A h rechargeable lithium-ion battery or external DC power source, the S-NODE can support those sensors with higher power requirements.
+hardwareVersions:
+  - version: '1.0'
+    numeric: 1
+
+firmwareVersions:
+  - version: '1.0'
+    numeric: 1
+    hardwareVersions:
+      - '1.0'
+    profiles:
+      US902-928:
+        id: s-node-r1-profile-us915
+        lorawanCertified: false
+        codec: s-node-r1-codec
+
+additionalRadios:
+  - cellular
+
+keyProgramming:
+  - serial #the user has a serial interface to set the keys
+
+firmwareProgramming:
+  - serial #the user has a serial interface to update the firmware
+
+productURL: https://ictinternational.com/product/internet-of-things-nodes/
+dataSheetURL: https://ictinternational.com/wp-content/uploads/2023/06/ICT-S-Node-L-Manual-2021.pdf
+
+# Commercial information
+resellerURLs:
+  - name: 'ICT International'
+    region:
+      - United States
+    url: https://ictinternational.com/
+
+photos:
+  main: s-node.png
