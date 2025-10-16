@@ -1,4 +1,5 @@
-// Decoder for RAK10701 (RAK Wireless), 
+// Decoder for RAK10701 (RAK Wireless). Newer Firmware of the RAK10701 requires a downlink command to get the device into the correct "mode". This command is the following, hex string `76312E312E30`, port `10`, confirmed `true`.
+// You'll know if the device is not in the correct mode if it sends data to fport=5. 
 // NOTE: Already set up to work with lorawan-listener plugin
 function decodeUplink(input) {
     let bytes = input.bytes;
@@ -52,6 +53,10 @@ function decodeUplink(input) {
                 { name: "sats", value: sats }
             );
         }
+    } else if (port === 5) {
+        decoded.measurements.push(
+            { name: "error", value: "Device not in correct mode. Please send downlink command `76312E312E30` on port `10` confirmed `true` to set the device in the correct mode." }
+        );
     }
     return { data: decoded };
 }
