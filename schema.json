@@ -742,7 +742,7 @@
           "then": {
             "properties": {
               "regionalParametersVersion": {
-                "enum": ["RP001-1.0.3-RevA"]
+                "enum": ["RP001-1.0.3-RevA", "RP002-1.0.3"]
               }
             }
           }
